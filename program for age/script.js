@@ -1,0 +1,11 @@
+let dob=new Date("02/25/1998");
+// console.log(dob);
+let t=dob.getTime();
+// console.log(t);
+let total=Date.now()-t;
+let age_cal=new Date(total);
+// console.log(age_cal);
+let y=age_cal.getFullYear();
+// console.log(y);
+let age=Math.abs(y-1970);
+console.log("Age"+age);
