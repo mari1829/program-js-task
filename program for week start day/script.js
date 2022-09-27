@@ -1,4 +1,4 @@
-let d=23,mon=07,yr=2002;
+let d=27,mon=07,yr=2002;
 date=mon+"/"+d+"/"+yr;
 console.log(date);
 let g_date=new Date(date);
