@@ -3,7 +3,6 @@ function rmv(){
 	let str=splchar.replace(/[^a-zA-Z]/g, ""),
 	ls=splchar.replace(/[^0-9]/g, "");
 	console.log(str);
-	console.log(ls);
-	
+	console.log(ls);	
 }
 rmv();
