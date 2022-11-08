@@ -1,0 +1,15 @@
+let a=1;
+let b=2;
+let c=3;
+let d=4;
+let e;
+e=a;
+a=d;
+b=b;
+c=c;
+d=d;
+console.log(a);
+console.log(b);
+console.log(c);
+// console.log(d);
+console.log(e);
